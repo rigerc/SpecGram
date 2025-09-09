@@ -20,3 +20,7 @@ Pulls directly and heavily from:
 
 * [Spec Kit](https://github.com/github/spec-kit)
 * [BMAD](https://github.com/bmad-code-org/BMAD-METHOD)
+
+## Give it a try
+
+Copy the `.kilocode` directory into your project. `.kilocodemodes` is 100% optional. It installs modes that are available from the Kilocode marketplace. They are not used by any of the core `/specify`, `/plan`, or `/tasks` workflows but can be helpful during implementation.
