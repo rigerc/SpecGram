@@ -24,7 +24,7 @@ Your TODO list is as follows. Use the sections below for detailed instructions.
 
 ### 01. Validation
 
-CRITICAL: Create a `new_task` in `architect` mode to check the state of the memory bank using instructions from `.kilocode/specs/core/memory-bank-automation.md`
+CRITICAL: Create a `new_task` in `architect` mode to check the state of the memory bank using instructions from `.roo/specs/core/memory-bank-automation.md`
 
 ### 02. New Specification Creation
 
@@ -38,13 +38,13 @@ If no `feature_description` is provided, ask the user to provide one.
 
 use the response as the `feature_description`.
 
-`execute_command` `.kilocode/specs/scripts/new-features.sh --json "{feature_description}"` from repo root and parse its JSON output for `BRANCH_NAME` and `SPEC_FILE`. All file paths must be absolute.
+`execute_command` `.roo/specs/scripts/new-features.sh --json "{feature_description}"` from repo root and parse its JSON output for `BRANCH_NAME` and `SPEC_FILE`. All file paths must be absolute.
 
 ### 03. Specification Initialization
 
 `switch_mode` to `architect` mode.
 
-`read_file` `.kilocode/specs/templates/spec-template.md` to understand required sections.
+`read_file` `.roo/specs/templates/spec-template.md` to understand required sections.
 
 Write the specification to `SPEC_FILE` using the template structure, replacing placeholders with concrete details derived from the feature description (arguments) while preserving section order and headings. NEVER update `Review & Acceptance Checklist` until the `Finalization`.
 
@@ -52,7 +52,7 @@ Write the specification to `SPEC_FILE` using the template structure, replacing p
 
 `switch_mode` to `architect` mode.
 
-Fine tune the specification. `read_file` `.kilocode/specs/core/brainstorming-techniques.md` for brainstorming methods and `.kilocode/specs/core/elicitation-methods.md` for elicitation techniques.
+Fine tune the specification. `read_file` `.roo/specs/core/brainstorming-techniques.md` for brainstorming methods and `.roo/specs/core/elicitation-methods.md` for elicitation techniques.
 
 Continue to ask the user for clarifications using `ask_followup_question` as needed to fill out the spec.
 

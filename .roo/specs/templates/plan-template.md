@@ -2,7 +2,7 @@
 # Implementation Plan: [FEATURE]
 
 **Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
-**Input**: Feature specification from `.kilocode/specs/[###-feature-name]/spec.md`
+**Input**: Feature specification from `.roo/specs/[###-feature-name]/spec.md`
 
 ## Execution Flow (/plan command scope)
 ```
@@ -80,7 +80,7 @@
 
 ### Documentation (this feature)
 ```
-.kilocode/specs/[###-feature-name]/
+.roo/specs/[###-feature-name]/
 ├── plan.md              # This file (/plan command output)
 ├── research.md          # Phase 0 output (/plan command)
 ├── data-model.md        # Phase 1 output (/plan command)
@@ -177,7 +177,7 @@ ios/ or android/
 *This section describes what the /tasks command will do - DO NOT execute during /plan*
 
 **Task Generation Strategy**:
-- Load `.kilocode/specs/templates/tasks-template.md` as base
+- Load `.roo/specs/templates/tasks-template.md` as base
 - Generate tasks from Phase 1 design docs (contracts, data model, quickstart)
 - Each contract → contract test task [P]
 - Each entity → model creation task [P] 
@@ -227,4 +227,4 @@ ios/ or android/
 - [ ] Complexity deviations documented
 
 ---
-*Based on Constitution v2.1.1 - See `.kilocode/rules/constitution.md`*
+*Based on Constitution v2.1.1 - See `.roo/rules/constitution.md`*

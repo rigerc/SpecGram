@@ -26,7 +26,7 @@ check_feature_branch() {
 # Get specs directory path
 get_specs_dir() {
     local repo_root="$1"
-    echo "$repo_root/.kilocode/specs"
+    echo "$repo_root/.roo/specs"
 }
 
 # Get feature directory path

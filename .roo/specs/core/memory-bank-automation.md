@@ -13,7 +13,7 @@ Your TODO list is as follows. Use the sections below for detailed instructions.
 
 ### 01. Check if the memory bank is already initialized. 
 
-Check if the memory bank is already initialized by checking for the `Core Files` in `.kilocode/rules/memory-bank/`.
+Check if the memory bank is already initialized by checking for the `Core Files` in `.roo/rules/memory-bank/`.
 
 If it is, ALWAYS evaluate `Automated Memory Bank Update`.
 

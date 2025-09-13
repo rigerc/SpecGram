@@ -1,13 +1,13 @@
 # Constitution Update Checklist
 
-When amending the constitution (`.kilocode/rules/memory-bank/constitution.md`), ensure all dependent documents are updated to maintain consistency.
+When amending the constitution (`.roo/rules/memory-bank/constitution.md`), ensure all dependent documents are updated to maintain consistency.
 
 ## Templates to Update
 
 ### When adding/modifying ANY article:
-- [ ] `.kilocode/specs/templates/plan-template.md` - Update Constitution Check section
-- [ ] `.kilocode/specs/templates/spec-template.md` - Update if requirements/scope affected
-- [ ] `.kilocode/specs/templates/tasks-template.md` - Update if new task types needed
+- [ ] `.roo/specs/templates/plan-template.md` - Update Constitution Check section
+- [ ] `.roo/specs/templates/spec-template.md` - Update if requirements/scope affected
+- [ ] `.roo/specs/templates/tasks-template.md` - Update if new task types needed
 
 ### Article-specific updates:
 
@@ -65,7 +65,7 @@ When amending the constitution (`.kilocode/rules/memory-bank/constitution.md`), 
 ## Common Misses
 
 Watch for these often-forgotten updates:
-- Command documentation (`.kilocode/workflows/*.md`)
+- Command documentation (`.roo/workflows/*.md`)
 - Checklist items in templates
 - Example code/commands
 - Domain-specific variations (web vs mobile vs CLI)

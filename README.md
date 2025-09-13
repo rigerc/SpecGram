@@ -23,4 +23,4 @@ Pulls directly and heavily from:
 
 ## Give it a try
 
-Copy the `.kilocode` directory into your project. `.kilocodemodes` is 100% optional. It installs modes that are available from the Kilocode marketplace. They are not used by any of the core `/specify`, `/plan`, or `/tasks` workflows but can be helpful during implementation.
+Copy the `.roo` directory into your project. `.roomodes` is 100% optional. It installs modes that are available from the Kilocode marketplace. They are not used by any of the core `/specify`, `/plan`, or `/tasks` workflows but can be helpful during implementation.

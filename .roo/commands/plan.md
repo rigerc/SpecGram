@@ -25,7 +25,7 @@ Your TODO list is as follows. Use the sections below for detailed instructions.
 
 `switch_mode` to `code` mode.
 
-`execute_command` `.kilocode/specs/scripts/setup-plan.sh --json` from the repo
+`execute_command` `.roo/specs/scripts/setup-plan.sh --json` from the repo
 root and parse its JSON output for `FEATURE_SPEC`, `IMPL_PLAN`, `SPECS_DIR`,
 `BRANCH`. All future file paths must be absolute.
 
@@ -49,7 +49,7 @@ Read the memory bank and constitution to understand constitutional requirements.
 `switch_mode` to `architect` mode.
 
 Execute the implementation plan template:
- - `read_file` `.kilocode/specs/templates/plan-template.md` (already copied to 
+ - `read_file` `.roo/specs/templates/plan-template.md` (already copied to 
    `IMPL_PLAN` path)
  - Set Input path to `FEATURE_SPEC`
  - Run the Execution Flow (main) function steps to complete phases 0 and 1.

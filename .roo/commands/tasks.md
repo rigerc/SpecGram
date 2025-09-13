@@ -24,7 +24,7 @@ Your TODO list is as follows. Use the sections below for detailed instructions.
 
 `switch_mode` to `code` mode.
 
-`execute_command` `.kilocode/specs/scripts/check-task-prerequisites.sh --json`
+`execute_command` `.roo/specs/scripts/check-task-prerequisites.sh --json`
 from repo root and parse `FEATURE_DIR` and `AVAILABLE_DOCS` list. All paths must
 be absolute.
 
@@ -49,7 +49,7 @@ Note: Not all projects have all documents. For example:
 `switch_mode` to `architect` mode.
 
 1. Generate tasks following the template:
-   - Use `.kilocode/specs/templates/tasks-template.md` as the base
+   - Use `.roo/specs/templates/tasks-template.md` as the base
    - Replace example tasks with actual tasks based on:
      * **Setup tasks**: Project init, dependencies, linting
      * **Test tasks [P]**: One per contract, one per integration scenario
